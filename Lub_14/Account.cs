@@ -19,12 +19,12 @@ namespace Lub_13
         public string FullName { get { return _fullName; } } //Держатель счёта
         public void DumpToScreen()
         {
-            #if typeA
+#if typeA
             Console.WriteLine("Выводит вариант 1");
-            #endif
-            #if typeB
+#endif
+#if typeB
             Console.WriteLine("Выводит вариант 2");
-            #endif
+#endif
         }
         public Account(string fullName, string accountType)
         {
